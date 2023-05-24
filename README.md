@@ -1,6 +1,6 @@
 # plataforma-cursos
 
-<b>Fiz esse site pra praticar também, esse site e so o front end de uma pagina de cursos de programação tendo o front e o back <b>
+<b>Fiz esse site pra praticar também, esse site e so o front end de uma pagina de cursos de programação tendo curso de front e de back <b>
 <br>
 
 <h1>Tecnologias utilizadas</h1>
@@ -10,4 +10,4 @@
 <br>
 
 <h1>Este projeto pode ser visto aqui</h1>
-https://luizh3nr1que.github.io/nft-marketplace/
+https://luizh3nr1que.github.io/plataforma-cursos/
