@@ -43,8 +43,11 @@ function AbrirForm() {
     var imagem = document.getElementById("imagem-entre-em-contato");
     if (form.style.display === "block") {
         form.style.display = "none";
+        imagem.src = "./img/contato.png";
     } else {
         form.style.display = "block";
+        imagem.src = "./img/contato-x.png";
+        imagem.style.width = '120px'
     }
 }
 
