@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="respnsive.css">
+    <link rel="stylesheet" href="contato.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="icon/favicon-32x32.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Luiz | Trilha Front-End</title>
+</head>
+
+<body>
+    <section>
+        <div class="imgFundo">
+            <img src="img/fundo.png">
+
+        </div>
+
+        <header>
+            <div class="logo">
+                <a href="../index.html"><img src="img/logo.png"></a>
+            </div>
+
+            <div class="perfil-display">
+                <div id="abrirPerfil" class='perfil-container'>
+                    <div class="perfil">
+                        <img src="img/perfil.png">
+                    </div>
+                    <span class="material-icons">
+                        expand_more
+                    </span>
+
+                    <div id="menu" class="menu">
+                        <ul class="perfil">
+                            <li><a style="padding-right: 133px;" href="#">Perfil</a></li>
+                            <li><a style="padding-right: 85px;" class="border-perfil" href="#">Certificados</a></li>
+                            <hr>
+                            <li><a style="padding-right: 120px; margin-top: 5px;" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+        <div class="escrita">
+            <h1>
+                Intesifique seus conhecimentos no Front End com nossos cursos e pratique em projetos reais
+            </h1>
+            <p>Coloque em prática todo o seu conhecimento e se desafie com exercicios desde o nivel mais facil ate o
+                mais
+                dificiel</p>
+        </div>
+    </section>
+
+    <!-- form -->
+
+    <div class="contato-container">
+        <img onclick="AbrirForm()" src="img/contato.png" draggable="false" class="entreEmContato"
+            id="imagem-entre-em-contato">
+    </div>
+
+
+
+    <div class="display">
+        <div class="containerForm">
+            <div class="header-form">
+                <h1 style="color: white;">Escreva sua duvida ou problema e responderemos o mais rápido. obrigado(a)!
+                </h1>
+            </div>
+            <form id="contact-form" class="form-conteudo">
+                <div class="content">
+
+                    <div class="input-type">
+
+                        <label id="nameL" for="name">Nome:</label>
+                        <input autocomplete="off" class="input-is" type="text" name="name" id="name"
+                            placeholder="Digite seu nome" required>
+
+                        <label for="email">Email:</label>
+                        <input style="background-color: transparent; box-shadow: none;" autocomplete="off"
+                            class="input-is email" type="email" name="email" placeholder="exemplo@email.com" required>
+
+                        <label for="message">Mensagem:</label>
+                        <textarea class="input-is" name="message" id="message" placeholder="Escreva Sua duvida/problema"
+                            required></textarea>
+
+                        <button class="enviar" type="submit"> <img src="img/send.png"> Enviar</button>
+                    </div>
+                </div>
+            </form>
+            <div class="enviado"></div>
+            <div class="msg"></div>
+        </div>
+    </div>
+    <!-- fim do form -->
+
+
+
+    <main>
+
+        <section class="container">
+            <div class="trilha1">
+                <h1>Fundamentos | <span style="font-size: 20px;">{trilha} Frontend</span></h1>
+
+                <div class="botao-carrosel">
+                    <button class="carousel-prev">&lt;</button>
+                    <button class="carousel-next">&gt;</button>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card-conteudos-container">
+                    <section class="card">
+                        <img src="img/ferramentas.jpg">
+                        <p style="top: 150px; height: 34%;">CONHECENDO SUAS<br> FERRAMENTAS</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/html5.jpg">
+                        <p style="top: 170px; height: 27%;">HTML 5</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/css3.jpg">
+                        <p style="top: 170px; height: 27%;">CSS 3</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/logica.jpg">
+                        <p style="top: 130px; height: 45%;">LOGICA DE <br> PROGRAMAÇÃO <br> <span
+                                style="font-size: 13px; color: gray;">[javaScript I]</span> </p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/doom.jpg">
+                        <p style="top: 150px; height: 35%;">DOOM <br> <span
+                                style="font-size: 13px; color: gray;">[javaScript
+                                II]</span> </p>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="trilha1">
+                <h1>Fundamentos || <span style="font-size: 20px;">{trilha} Frontend</span></h1>
+
+                <div class="botao-carrosel">
+                    <button class="carousel-prev">&lt;</button>
+                    <button class="carousel-next">&gt;</button>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card-conteudos-container">
+                    <section class="card">
+                        <img src="img/javaModerno.jpg">
+                        <p style="top: 130px; height: 45%;">JAVASCRIPT <br> MODERNO <br> <span
+                                style="font-size: 13px; color: gray;">[javaScript
+                                III]</span> </p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/programaçãoObj.jpg">
+                        <p style="top: 130px; height: 45%;">PROGRAMAÇÃO <br>ORIENTADA A OBJETOS <br> <span
+                                style="font-size: 13px; color: gray;">[javaScript
+                                IV]</span> </p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/typescript.jpg">
+                        <p style="top: 170px; height: 28%;">TYPESCRIPT</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/git.jpg">
+                        <p style="top: 170px; height: 28%;">GIT E GITHUB</p>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="container">
+            <div class="trilha1">
+                <h1>Fundamentos ||| <span style="font-size: 20px;">{trilha} Frontend</span></h1>
+
+                <div class="botao-carrosel">
+                    <button class="carousel-prev">&lt;</button>
+                    <button class="carousel-next">&gt;</button>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card-conteudos-container">
+                    <section class="card">
+                        <img src="img/cssModerno.jpg">
+                        <p style="top: 165px; height: 28%;">CSS MODERNO</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/sass.png">
+                        <p style="top: 165px; height: 27%; opacity: .8;">SASS</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/bootstrap.jpg">
+                        <p style="top: 170px; height: 27%;">BOOTSTRAP</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/fundamentosReact.jpg">
+                        <p style="top: 150px; height: 35%;">FUNDAMENTOS DO <br> REACT</p>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <h1>© 2023 - Luiz Henrique. Todos os direitos reservados.</h1>
+        <p>Feito com <span style="color: rgb(235, 50, 50);">&#x2764;</span> por Luiz Henrique </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--  | © Desenvolvido por luiz Henrique 🚀 -->

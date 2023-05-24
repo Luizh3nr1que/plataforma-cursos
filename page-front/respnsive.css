@@ -1,0 +1,86 @@
+@media screen and (max-width: 833px) {
+    .escrita {
+        top: 90px;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    .escrita {
+        top: 80px;
+        width: 500px;
+        background-color: transparent;
+    }
+
+    .escrita h1 {
+        font-size: 20px;
+    }
+
+    .escrita p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .escrita {
+        top: 60px;
+        width: 500px;
+    }
+
+
+    .escrita h1 {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .escrita p {
+        font-size: 13px;
+    }
+
+    .trilha1 h1 {
+        font-size: 20px;
+    }
+
+
+    .card img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .escrita {
+        top: 60px;
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 457px) {
+    .escrita {
+        top: 60px;
+        width: 400px;
+    }
+
+
+    .escrita h1 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .escrita p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .escrita {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1706px) {
+
+    .carousel-prev,
+    .carousel-next {
+        display: none;
+    }
+}

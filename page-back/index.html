@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="respnsive.css">
+    <link rel="stylesheet" href="contato.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="icon/favicon-32x32.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Luiz | Trilha Back-End</title>
+</head>
+
+<body>
+    <section>
+        <div class="imgFundo">
+            <img src="img/fundo.png">
+
+        </div>
+
+        <header>
+            <div class="logo">
+                <a href="../index.html"><img src="img/logo.png"></a>
+            </div>
+
+            <div class="perfil-display">
+                <div id="abrirPerfil" class='perfil-container'>
+                    <div class="perfil">
+                        <img src="img/perfil.png">
+                    </div>
+                    <span class="material-icons">
+                        expand_more
+                    </span>
+
+                    <div id="menu" class="menu">
+                        <ul class="perfil">
+                            <li><a style="padding-right: 133px;" href="#">Perfil</a></li>
+                            <li><a class="border-perfil" href="#">Certificados</a></li>
+                            <hr>
+                            <li><a style="padding-right: 120px; margin-top: 5px;" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+        <div class="escrita">
+            <h1>
+                Intesifique seus conhecimentos no Back End com nossos cursos e pratique em projetos reais
+            </h1>
+            <p>Coloque em prática todo o seu conhecimento e se desafie com exercicios desde o nivel mais facil ate o
+                mais
+                dificiel</p>
+        </div>
+    </section>
+
+    <!-- form -->
+
+    <div class="contato-container">
+        <img onclick="AbrirForm()" src="img/contato.png" draggable="false" class="entreEmContato"
+            id="imagem-entre-em-contato">
+    </div>
+
+
+
+    <div class="display">
+        <div class="containerForm">
+            <div class="header-form">
+                <h1 style="color: white;">Escreva sua duvida ou problema e responderemos o mais rápido. obrigado(a)!
+                </h1>
+            </div>
+            <form id="contact-form" class="form-conteudo">
+                <div class="content">
+
+                    <div class="input-type">
+
+                        <label id="nameL" for="name">Nome:</label>
+                        <input autocomplete="off" class="input-is" type="text" name="name" id="name"
+                            placeholder="Digite seu nome" required>
+
+                        <label for="email">Email:</label>
+                        <input style="background-color: transparent; box-shadow: none;" autocomplete="off"
+                            class="input-is email" type="email" name="email" placeholder="exemplo@email.com" required>
+
+                        <label for="message">Mensagem:</label>
+                        <textarea class="input-is" name="message" id="message" placeholder="Escreva Sua Mensagem"
+                            required></textarea>
+
+                        <button class="enviar" type="submit"> <img src="img/send.png"> Enviar</button>
+                    </div>
+                </div>
+            </form>
+            <div class="enviado"></div>
+            <div class="msg"></div>
+        </div>
+    </div>
+    <!-- fim do form -->
+
+
+
+    <main>
+
+        <section class="container">
+            <div class="trilha1">
+                <h1>Fundamentos | <span style="font-size: 20px;">{trilha} Backend</span></h1>
+
+                <div class="botao-carrosel">
+                    <button class="carousel-prev">&lt;</button>
+                    <button class="carousel-next">&gt;</button>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card-conteudos-container">
+                    <section class="card">
+                        <img src="img/bancoDeDados.jpg">
+                        <p style="top: 150px; height: 35%;">CONHECENDO BANCO<br>DE DADOS </p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/servidor.png">
+                        <p style="top: 150px; height: 35%;">INTRODUÇÃO A<br>SERVIDORES </p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/MYSQL.jpg">
+                        <p style="top: 150px; height: 35%;">DOMINANDO <br> MYSQL</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/MONGODB.jpg">
+                        <p style="top: 150px; height: 35%;">DOMINANDO <br> MONGODB</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <div class="trilha1">
+                <h1>Fundamentos || <span style="font-size: 20px;">{trilha} Backend</span></h1>
+
+                <div class="botao-carrosel">
+                    <button class="carousel-prev">&lt;</button>
+                    <button class="carousel-next">&gt;</button>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card-conteudos-container">
+
+                    <section class="card">
+                        <img src="img/HTTPS.jpg">
+                        <p style="top: 150px; height: 35%;">FUNDAMENTOS DO<br> HTTP</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/NODE.jpg">
+                        <p style="top: 160px; height: 35%;">NODE JS</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/PYTHON.png">
+                        <p style="top: 160px; height: 35%;">PYTHON</p>
+                    </section>
+
+                    <section class="card">
+                        <img src="img/RUBY.jpg">
+                        <p style="top: 160px; height: 35%;">RUBY</p>
+                    </section>
+
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <h1>© 2023 - Luiz Henrique. Todos os direitos reservados.</h1>
+        <p>Feito com <span style="color: rgb(235, 50, 50);">&#x2764;</span> por Luiz Henrique </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--  | © Desenvolvido por luiz Henrique 🚀 -->
