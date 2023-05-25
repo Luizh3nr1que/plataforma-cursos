@@ -55,7 +55,7 @@ section {
     background: linear-gradient(to right, #6e0101, #ff3333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 22px !important;
+    font-size: 30px !important;
 }
 
 section p {

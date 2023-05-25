@@ -3,6 +3,10 @@
         margin: 30px auto;
         width: 630px;
     }
+
+    section h1 {
+        font-size: 25px !important;
+    }
 }
 
 @media screen and (max-width:704px) {
@@ -58,6 +62,15 @@
 
     .beneficios {
         text-align: start;
+    }
+
+    section h1 {
+        font-size: 17px !important;
+    }
+
+
+    .proSpan {
+        font-size: 20px !important;
     }
 }
 
