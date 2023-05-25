@@ -88,6 +88,13 @@ window.addEventListener("scroll", function () {
 });
 
 
+var imgs = document.querySelectorAll('img')
+
+for (var i = 0; i < imgs.length; i++) {
+    imgs[i].setAttribute('draggable', 'false')
+}
+
+
 
 
 
