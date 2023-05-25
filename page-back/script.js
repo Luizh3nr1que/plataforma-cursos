@@ -68,6 +68,7 @@ button.addEventListener('click', () => {
         }, 7000);
     } else {
         input.innerHTML = ''
+        msg.innerHTML = ''
         enviado.innerHTML = 'Mensagem enviado, obrigado(a)!'
         setTimeout(function () {
             enviado.innerHTML = '';
@@ -93,6 +94,9 @@ var imgs = document.querySelectorAll('img')
 for (var i = 0; i < imgs.length; i++) {
     imgs[i].setAttribute('draggable', 'false')
 }
+
+
+
 
 
 

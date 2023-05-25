@@ -68,6 +68,7 @@ button.addEventListener('click', () => {
         }, 7000);
     } else {
         input.innerHTML = ''
+        msg.innerHTML = ''
         enviado.innerHTML = 'Mensagem enviado, obrigado(a)!'
         setTimeout(function () {
             enviado.innerHTML = '';
