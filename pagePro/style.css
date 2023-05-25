@@ -83,6 +83,7 @@ section p {
     flex-direction: column;
     text-align: justify;
     gap: 30px;
+    color: rgb(158, 157, 157);
     font-size: 17px;
 }
 
