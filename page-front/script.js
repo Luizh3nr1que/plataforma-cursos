@@ -23,15 +23,12 @@ prevBtn.forEach((btn, index) => {
 
 const buttonPerfil = document.getElementById('abrirPerfil');
 const perfil = document.querySelector('.menu');
-const body = document.body;
 
 buttonPerfil.addEventListener('click', () => {
     if (perfil.style.display === 'none') {
         perfil.style.display = 'block';
-        body.style.overflow = 'hidden';
     } else {
         perfil.style.display = 'none';
-        body.style.overflow = 'scroll';
     }
 });
 
@@ -83,7 +80,14 @@ button.addEventListener('click', () => {
 /*Fim do form*/
 
 
-
+window.addEventListener("scroll", function () {
+    var header = document.querySelector(".header");
+    if (window.scrollY > 150) {
+        header.classList.add("scroll");
+    } else {
+        header.classList.remove("scroll");
+    }
+});
 
 
 
