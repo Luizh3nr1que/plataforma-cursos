@@ -18,6 +18,10 @@
     .escrita p {
         font-size: 15px;
     }
+
+    footer {
+        padding: 10px 0px 10px 10px;
+    }
 }
 
 @media screen and (max-width: 585px) {
@@ -39,6 +43,11 @@
     .trilha1 h1 {
         font-size: 20px;
     }
+
+    footer {
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 527px) {

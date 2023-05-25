@@ -1,0 +1,159 @@
+@media screen and (max-width:796px) {
+    section {
+        margin: 30px auto;
+        width: 630px;
+    }
+}
+
+@media screen and (max-width:704px) {
+    section {
+        margin: 30px auto;
+        width: 630px;
+    }
+
+    .card-pro {
+        width: 620px;
+    }
+}
+
+@media screen and (max-width:628px) {
+    section {
+        margin: 30px auto;
+        width: 580px;
+    }
+
+    .card-pro {
+        width: 580px;
+    }
+
+    .beneficios {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:582px) {
+    section {
+        margin: 30px auto;
+        width: 530px;
+    }
+
+    .card-pro {
+        width: 530px;
+    }
+
+    .beneficios {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:532px) {
+    section {
+        margin: 30px auto;
+        width: 480px;
+    }
+
+    .card-pro {
+        width: 480px;
+    }
+
+    .beneficios {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:478px) {
+    section {
+        margin: 30px auto;
+        width: 430px;
+    }
+
+    section h1 {
+        font-size: 18px !important;
+    }
+
+    .card-pro {
+        width: 430px;
+    }
+
+    .beneficios {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:432px) {
+    section {
+        margin: 30px auto;
+        width: 380px;
+    }
+
+    section h1 {
+        font-size: 15px !important;
+    }
+
+    .proSpan {
+        font-size: 15px !important;
+    }
+
+    .card-pro {
+        width: 380px;
+    }
+
+    .beneficios {
+        font-size: 15px;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:378px) {
+    section {
+        margin: 30px auto;
+        width: 330px;
+    }
+
+    section h1 {
+        font-size: 15px !important;
+    }
+
+    .proSpan {
+        font-size: 15px !important;
+    }
+
+    .card-pro {
+        flex-direction: column;
+        width: 330px;
+    }
+
+    .beneficios {
+        font-size: 15px;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:322px) {
+    section {
+        margin: 30px auto;
+        width: 280px;
+    }
+
+    section p {
+        font-size: 13px;
+    }
+
+    section h1 {
+        font-size: 13px !important;
+    }
+
+    .proSpan {
+        font-size: 13px !important;
+    }
+
+    .card-pro {
+        flex-direction: column;
+        width: 280px;
+    }
+
+    .beneficios {
+        font-size: 15px;
+        text-align: start;
+    }
+}

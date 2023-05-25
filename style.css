@@ -40,16 +40,16 @@ section {
     margin-top: 150px;
     max-width: 800px;
     animation: move .5s linear;
-    position: relative;
+    position: absolute;
 }
 
 @keyframes move {
     from {
-        right: 35%;
+        bottom: 75%;
     }
 
     to {
-        right: 50%;
+        bottom: 50%;
     }
 }
 

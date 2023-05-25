@@ -18,6 +18,10 @@
     .escrita p {
         font-size: 15px;
     }
+
+    footer {
+        padding: 10px 0px 10px 10px;
+    }
 }
 
 @media screen and (max-width: 585px) {
@@ -40,10 +44,10 @@
         font-size: 20px;
     }
 
-
-    .card img {
-        width: 300px;
+    footer {
+        justify-content: center;
     }
+
 }
 
 @media screen and (max-width: 527px) {
@@ -51,7 +55,6 @@
         top: 60px;
         width: 400px;
     }
-
 }
 
 @media screen and (max-width: 457px) {

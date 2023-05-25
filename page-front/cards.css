@@ -86,3 +86,49 @@
 .carousel-prev:hover {
     background-color: rgb(31, 30, 30);
 }
+
+
+.lock {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 5px;
+}
+
+.material-icons {
+    color: rgb(83, 83, 83);
+    width: 50px;
+}
+
+[data-tooltip]::before {
+    position: absolute;
+    top: 8px;
+    left: 320%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(31, 31, 31);
+    color: #ff2222;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+[data-tooltip]:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+/* Exibir o texto no hover */
+[data-tooltip]:hover::before {
+    content: attr(data-tooltip);
+    opacity: 1;
+}

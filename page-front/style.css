@@ -168,8 +168,16 @@ main {
     margin-bottom: 20px;
 }
 
+.copy {
+    width: 300px;
+}
+
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
     padding: 40px;
     border-top: 1px solid rgb(165, 165, 165);
 }
@@ -182,4 +190,43 @@ footer h1 {
 footer p {
     color: rgb(179, 179, 179);
     font-size: 13px;
+}
+
+
+
+.pro {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #ff2222;
+    cursor: pointer;
+}
+
+.pro:hover {
+    background-color: #ff3030;
+}
+
+.pro a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.ser-pro {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.ser-pro p {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
