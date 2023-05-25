@@ -18,6 +18,10 @@
     .card-pro {
         width: 620px;
     }
+
+    .price {
+        left: 5px;
+    }
 }
 
 @media screen and (max-width:628px) {
@@ -146,6 +150,17 @@
         font-size: 15px;
         text-align: start;
     }
+
+    .containerPrice {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid gray;
+    }
+
+    .price {
+        left: 50px;
+
+    }
 }
 
 @media screen and (max-width:322px) {
@@ -174,5 +189,13 @@
     .beneficios {
         font-size: 15px;
         text-align: start;
+    }
+
+    .price {
+        left: 27px;
+    }
+
+    .card-pro {
+        height: 550px;
     }
 }

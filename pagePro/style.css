@@ -93,10 +93,12 @@ section p {
 .price {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
     width: 150px;
     height: 180px;
+    position: relative;
+    top: 25%;
+    left: 10px;
 }
 
 .price h1 {
@@ -106,8 +108,15 @@ section p {
     font-size: 25px;
 }
 
+.containerPrice {
+    height: 100%;
+    padding-left: 15px;
+    border-left: 1px solid gray;
+}
+
 .priceNumber {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -127,6 +136,7 @@ section p {
     color: rgb(158, 157, 157);
     font-size: 13px;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 .vista {
@@ -141,8 +151,8 @@ section p {
     border-radius: 10px;
     border: none;
     outline: none;
-    background-color: #ff2222;
-    color: white;
+    background-color: #cc0e0e;
+    color: rgb(197, 214, 221);
     cursor: pointer;
     font-weight: bold;
     font-size: 17px;
@@ -151,7 +161,7 @@ section p {
 
 .pro:hover {
     transition: all .5s ease-in-out;
-    background-color: white;
-    color: black;
+    background-color: rgb(121, 1, 1);
+    color: rgb(197, 214, 221);
 
 }
