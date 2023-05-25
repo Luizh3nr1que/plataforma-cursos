@@ -68,7 +68,7 @@ section p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     width: 700px;
     height: 500px;
     gap: 50px;
@@ -83,7 +83,7 @@ section p {
     flex-direction: column;
     text-align: justify;
     gap: 30px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .price h1 {

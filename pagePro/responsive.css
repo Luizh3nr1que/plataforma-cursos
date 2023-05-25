@@ -72,6 +72,11 @@
     .proSpan {
         font-size: 20px !important;
     }
+
+    .beneficios {
+        font-size: 17px;
+        text-align: start;
+    }
 }
 
 @media screen and (max-width:478px) {
@@ -137,6 +142,7 @@
     }
 
     .beneficios {
+        gap: 15px;
         font-size: 15px;
         text-align: start;
     }
