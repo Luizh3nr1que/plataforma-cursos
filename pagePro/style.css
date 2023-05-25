@@ -166,3 +166,26 @@ section p {
     color: rgb(197, 214, 221);
 
 }
+
+.voltar {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #3f3f3f41;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 10px auto;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: rgb(197, 214, 221);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.voltar:hover {
+    background-color: #5c5c5c93;
+}
