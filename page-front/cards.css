@@ -6,6 +6,7 @@
     margin-right: 10px;
     width: 350px;
     height: 235px;
+    user-select: none;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(223, 223, 223, 0.048);
     color: #e8e8e8;
