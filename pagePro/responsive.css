@@ -143,10 +143,12 @@
     .card-pro {
         flex-direction: column;
         width: 330px;
+        padding: 10px 0px 10px 0px;
     }
 
     .beneficios {
-        gap: 15px;
+        gap: 20px;
+        padding: 20px;
         font-size: 15px;
         text-align: start;
     }
@@ -154,12 +156,16 @@
     .containerPrice {
         width: 100%;
         border-left: none;
-        border-top: 1px solid gray;
+        border-top: 1px solid rgb(36, 36, 36);
     }
 
     .price {
-        left: 50px;
+        left: 70px;
+        top: 5px !important;
+    }
 
+    .card-pro {
+        height: 550px;
     }
 }
 
@@ -192,10 +198,10 @@
     }
 
     .price {
-        left: 27px;
+        left: 46px;
     }
 
     .card-pro {
-        height: 550px;
+        height: 580px;
     }
 }
