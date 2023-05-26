@@ -167,16 +167,90 @@ main {
     margin-bottom: 20px;
 }
 
-.new {
-    position: absolute;
-    width: 10px;
+.proSpan {
+    background: linear-gradient(to right, #6e0101, #ff3333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px !important;
 }
 
-footer {
+
+.proContainer {
+    border-radius: 7px;
+    height: 500px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(13, 13, 13);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     gap: 50px;
+}
+
+.proConteudo h1 {
+    color: rgb(196, 196, 196);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+
+}
+
+.button-pro {
+    text-align: center;
+}
+
+.button-pro h1 {
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+
+    width: 330px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blick {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+.proBtn {
+    margin-top: 10px;
+    width: 200px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #ff2222;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.proBtn a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+}
+
+.proBtn:hover {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+    background-color: #af0202;
+}
+
+
+footer {
     padding: 40px;
     border-top: 1px solid rgb(53, 53, 53);
 }
@@ -189,45 +263,4 @@ footer h1 {
 footer p {
     color: rgb(179, 179, 179);
     font-size: 13px;
-}
-
-
-
-
-.pro {
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: #ff2222;
-    cursor: pointer;
-}
-
-.pro:hover {
-    background-color: #ff3030;
-}
-
-.pro a {
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: white;
-}
-
-
-
-.ser-pro {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    text-align: center;
-    margin-right: 60px;
-}
-
-.ser-pro p {
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 5px;
 }

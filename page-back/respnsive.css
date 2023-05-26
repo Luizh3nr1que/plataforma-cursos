@@ -18,17 +18,16 @@
     .escrita p {
         font-size: 15px;
     }
-
-    footer {
-        padding: 10px 0px 10px 10px;
-    }
 }
 
 @media screen and (max-width: 661px) {
     .botao-carrosel button {
         display: block !important;
     }
+
+
 }
+
 
 @media screen and (max-width: 585px) {
     .escrita {
@@ -50,10 +49,13 @@
         font-size: 20px;
     }
 
-    footer {
-        justify-content: center;
-    }
+}
 
+@media screen and (max-width: 559px) {
+    .button-pro h1 {
+        width: 275px;
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 527px) {
@@ -61,7 +63,6 @@
         top: 60px;
         width: 400px;
     }
-
 }
 
 @media screen and (max-width: 457px) {
@@ -78,6 +79,19 @@
 
     .escrita p {
         font-size: 10px;
+    }
+
+    .proContainer {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 457px) {
+    .button-pro h1 {
+        width: 100%;
+        border: none;
+        white-space: normal;
+        animation: none;
     }
 }
 
