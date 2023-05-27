@@ -65,7 +65,7 @@
 .entreEmContato {
     cursor: pointer;
     position: fixed;
-    bottom: 0px;
+    bottom: 10px;
     right: 0px;
     z-index: 999;
 }

@@ -55,6 +55,10 @@ header {
     width: 190px
 }
 
+
+
+/* perfil style */
+
 .perfil-container {
     display: flex;
     align-items: center;
@@ -74,11 +78,13 @@ header {
     background-color: rgb(22, 22, 22);
 }
 
+
 .perfil {
     background-color: #4b4b4b;
     border-radius: 50%;
     width: 40px;
 }
+
 
 .perfil-container span {
     color: rgb(121, 121, 121);
@@ -86,6 +92,11 @@ header {
 
 .perfil-container span:hover {
     color: rgb(206, 206, 206);
+}
+
+.perfilLink {
+    display: flex;
+    flex-direction: row;
 }
 
 .menu {
@@ -102,7 +113,7 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 185px !important;
-    height: 150px;
+    height: 140px;
     border-radius: 8px !important;
     list-style: none;
 }
@@ -127,6 +138,10 @@ ul a {
 li a:hover {
     background-color: #030303cc;
 }
+
+/* fim perfil style */
+
+
 
 .escrita {
     border-radius: 8px;

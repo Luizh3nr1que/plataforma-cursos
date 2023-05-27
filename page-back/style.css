@@ -101,7 +101,7 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 185px !important;
-    height: 150px;
+    height: 140px;
     border-radius: 8px !important;
     list-style: none;
 }
@@ -111,11 +111,6 @@ li {
     margin-bottom: 20px;
 }
 
-
-hr {
-    border-color: #747474;
-    margin-bottom: 10px;
-}
 
 ul a {
     padding: 8px 49.6px 8px 14px;
