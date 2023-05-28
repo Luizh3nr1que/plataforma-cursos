@@ -151,9 +151,8 @@
     display: none;
 }
 
-
 .enviadoFeed {
-    position: absolute;
+    position: fixed;
     background-color: #27e04f;
     height: 50px;
     width: 250px;
@@ -161,7 +160,7 @@
     border-bottom-left-radius: 6px;
     color: white;
     right: 0;
-    top: 150px;
+    top: 100px;
     font-family: 500;
     font-size: 18px;
     font-weight: 700;
@@ -172,6 +171,7 @@
     transition: all 1s ease-in-out;
     animation: move .5s linear;
 }
+
 
 @keyframes move {
     from {
