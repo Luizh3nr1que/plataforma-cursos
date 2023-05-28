@@ -112,8 +112,8 @@ ul {
     background-color: #252525 !important;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 185px !important;
-    height: 140px;
+    width: 195px !important;
+    height: 180px;
     border-radius: 8px !important;
     list-style: none;
 }
@@ -253,6 +253,36 @@ main {
     transform: translateY(-5px);
     background-color: #af0202;
 }
+
+/* style feed */
+
+#abrirFeed {
+    background-color: #ff2222;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#abrirFeed:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #cc0404;
+}
+
+
+
+
+/* fim style feed */
+
 
 
 footer {

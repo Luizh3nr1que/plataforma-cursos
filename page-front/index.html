@@ -47,12 +47,57 @@
                             <li><a style="padding-right: 133px;" href="#"> Perfil</a></li>
                             <li><a style="padding-right: 85px;" href="#">Certificados</a></li>
                             <li><a style="padding-right: 120px;" href="#">Logout</a></li>
+                            <button onclick="abrirFeed()" id="abrirFeed">DAR FEEDBACK</button>
                         </ul>
                     </div>
                 </div>
         </header>
 
 
+        <div class="feedback-container">
+            <div id="cobertura">
+                <div class="feedback">
+
+                    <div class="header">
+                        <button id="fechar-feedback">X</button>
+                    </div>
+
+                    <section class="conteudoFeed">
+                        <p>Sua opinião gera evolução!</p>
+                        <h1>Como está sendo a sua experiência com a plataforma?</h1>
+
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rate" value="5">
+                            <label for="star5" title="text"></label>
+                            <input type="radio" id="star4" name="rate" value="4">
+                            <label for="star4" title="text"></label>
+                            <input checked="" type="radio" id="star3" name="rate" value="3">
+                            <label for="star3" title="text"></label>
+                            <input type="radio" id="star2" name="rate" value="2">
+                            <label for="star2" title="text"></label>
+                            <input type="radio" id="star1" name="rate" value="1">
+                            <label for="star1" title="text"></label>
+                        </div>
+
+                        <hr style="margin-top: 30px; margin-bottom: 30px; border-color: rgba(110, 110, 110, 0.349);">
+
+                        <p>Quer nos contar detalhes?</p>
+                        <h1>Quanto mais informações, mais conseguimos evoluir. <span
+                                style="font-size: 14px;">(Opcional)</span></h1>
+
+                        <textarea name="text" id="textArea"></textarea>
+
+                        <button type="submit" class="submitFeedButton">ENVIAR FEEDBACK</button>
+
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="enviado-container">
+            <div class="enviado">Feedback Enviado</div>
+        </div>
 
         <div class="escrita">
             <h1>

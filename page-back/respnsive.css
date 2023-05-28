@@ -25,7 +25,11 @@
         display: block !important;
     }
 
-
+    .feedback {
+        border-radius: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+    }
 }
 
 
@@ -84,15 +88,21 @@
     .proContainer {
         padding: 10px;
     }
-}
 
-@media screen and (max-width: 457px) {
     .button-pro h1 {
         width: 100%;
         border: none;
         white-space: normal;
         animation: none;
     }
+}
+
+@media screen and (max-width: 439px) {
+    .conteudoFeed {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 }
 
 @media screen and (max-width: 399px) {

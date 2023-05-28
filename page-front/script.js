@@ -96,3 +96,48 @@ var imgs = document.querySelectorAll('img')
 for (var i = 0; i < imgs.length; i++) {
     imgs[i].setAttribute('draggable', 'false')
 }
+
+
+
+const feedButton = document.getElementById('abrirFeed');
+
+function abrirFeed() {
+    const body = document.querySelector('body');
+    const feed = document.querySelector('.feedback-container');
+
+    body.style.overflow = 'hidden';
+    feed.style.display = 'block';
+}
+
+
+
+
+const buttonFechar = document.getElementById('fechar-feedback');
+
+function fecharWallet() {
+    const body = document.querySelector('body');
+    const feed = document.querySelector('.feedback-container');
+
+    body.style.overflow = 'scroll'
+    feed.style.display = 'none';
+}
+buttonFechar.addEventListener('click', fecharWallet);
+
+
+const submitButton = document.querySelector('.submitFeedButton')
+const inputArea = document.getElementById('textArea');
+const enviadoFeed = document.getElementById('enviado-container')
+
+submitButton.addEventListener('click', () => {
+    inputArea.value = '';
+    fecharWallet();
+    enviadoFeed.style.display = 'block'
+
+    setTimeout(function () {
+        enviadoFeed.style.display = 'none'
+    }, 4000)
+
+})
+
+
+
