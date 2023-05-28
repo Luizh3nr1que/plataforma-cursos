@@ -154,7 +154,7 @@ textarea:focus {
 
 .enviado {
     position: absolute;
-    background-color: #00ce2d;
+    background-color: #27e04f;
     height: 50px;
     width: 250px;
     border-radius: 10px;
@@ -180,4 +180,123 @@ textarea:focus {
     to {
         right: -5%;
     }
+}
+
+
+
+
+[data-tooltip-star1]::before {
+    position: absolute;
+    top: 65px;
+    right: -50px;
+    width: 100px;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Exibir o texto no hover */
+[data-tooltip-star1]:hover::before {
+    content: attr(data-tooltip-star1);
+    opacity: 1;
+}
+
+[data-tooltip-star2]::before {
+    position: absolute;
+    top: 65px;
+    right: -85px;
+    width: 90px;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(255, 187, 0);
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Exibir o texto no hover */
+[data-tooltip-star2]:hover::before {
+    content: attr(data-tooltip-star2);
+    opacity: 1;
+}
+
+[data-tooltip-star3]::before {
+    position: absolute;
+    top: 65px;
+    right: -125px;
+    width: 90px;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(255, 238, 0);
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Exibir o texto no hover */
+[data-tooltip-star3]:hover::before {
+    content: attr(data-tooltip-star3);
+    opacity: 1;
+}
+
+[data-tooltip-star4]::before {
+    position: absolute;
+    top: 65px;
+    right: -170px;
+    width: 90px;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(63, 255, 46);
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Exibir o texto no hover */
+[data-tooltip-star4]:hover::before {
+    content: attr(data-tooltip-star4);
+    opacity: 1;
+}
+
+
+[data-tooltip-star5]::before {
+    position: absolute;
+    top: 65px;
+    right: -270px;
+    width: 150px;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(78, 248, 63);
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Exibir o texto no hover */
+[data-tooltip-star5]:hover::before {
+    content: attr(data-tooltip-star5);
+    opacity: 1;
 }
