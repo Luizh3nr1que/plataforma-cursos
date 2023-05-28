@@ -147,6 +147,7 @@
     background-color: #cc0404;
 }
 
+
 #enviado-container {
     display: none;
 }
@@ -172,7 +173,6 @@
     animation: move .5s linear;
 }
 
-
 @keyframes move {
     from {
         right: 40%;
@@ -182,7 +182,6 @@
         right: -5%;
     }
 }
-
 
 
 

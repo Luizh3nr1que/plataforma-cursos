@@ -54,6 +54,9 @@ header {
     width: 190px
 }
 
+
+/* perfil style */
+
 .perfil-container {
     display: flex;
     align-items: center;
@@ -100,26 +103,39 @@ ul {
     background-color: #252525 !important;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 195px !important;
-    height: 180px;
+    width: 210px !important;
+    height: 210px;
     border-radius: 8px !important;
     list-style: none;
 }
 
+
 li {
     margin-bottom: 20px;
+    display: block;
 }
 
 
 ul a {
     padding: 8px 49.6px 8px 14px;
     text-decoration: none;
-    color: #808080;
+    color: #cecece;
+
 }
 
 li a:hover {
     background-color: #030303cc;
 }
+
+
+.perfilIcon {
+    vertical-align: sub;
+    color: #ff3333;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+/* fim perfil style */
 
 .escrita {
     border-radius: 8px;
@@ -246,7 +262,7 @@ main {
     height: 30px;
     border: none;
     border-radius: 6px;
-    color: white;
+    color: #f8f8f8;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;

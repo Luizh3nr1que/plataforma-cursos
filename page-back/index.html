@@ -18,6 +18,9 @@
 
     <link rel="shortcut icon" href="icon/favicon-32x32.png" type="image/x-icon">
 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Luiz | Trilha Back-End</title>
 </head>
@@ -45,9 +48,15 @@
 
                     <div id="menu" class="menu">
                         <ul class="perfil">
-                            <li><a style="padding-right: 135px;" href="#"> Perfil</a></li>
-                            <li><a style="padding-right: 89px;" href="#">Certificados</a></li>
-                            <li><a style="padding-right: 125px;" href="#">Logout</a></li>
+                            <li><a style="padding-right: 110px;" href="#"> <ion-icon class="perfilIcon"
+                                        name="person-circle-outline"></ion-icon>Perfil</a></li>
+
+                            <li><a style="padding-right: 60px;" href="#"><ion-icon class="perfilIcon"
+                                        name="reader-outline"></ion-icon>Certificados</a></li>
+
+                            <li><a style="padding-right: 95px;" href="#"><ion-icon class="perfilIcon"
+                                        name="close-circle-outline"></ion-icon>Logout</a></li>
+
                             <button onclick="abrirFeed()" id="abrirFeed">DAR FEEDBACK</button>
                         </ul>
                     </div>
