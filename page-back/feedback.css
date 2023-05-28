@@ -106,8 +106,7 @@
 
 
 
-
-textarea {
+.textFeed {
     border: none;
     background-color: #0a0a0a;
     width: 100%;
@@ -119,7 +118,7 @@ textarea {
     transition: all .5s ease-in;
 }
 
-textarea:focus {
+.textFeed:focus {
     transition: all .5s ease-in;
     border: 1px solid #ff2222;
 }

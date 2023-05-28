@@ -123,7 +123,7 @@ buttonFechar.addEventListener('click', fecharWallet);
 
 
 const submitButton = document.querySelector('.submitFeedButton')
-const inputArea = document.getElementById('textArea');
+const inputArea = document.getElementById('textAreaFeed');
 const enviadoFeed = document.getElementById('enviado-container')
 
 submitButton.addEventListener('click', () => {
