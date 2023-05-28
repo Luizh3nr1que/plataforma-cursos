@@ -157,7 +157,8 @@
     background-color: #27e04f;
     height: 50px;
     width: 250px;
-    border-radius: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     color: white;
     right: 0;
     top: 150px;
