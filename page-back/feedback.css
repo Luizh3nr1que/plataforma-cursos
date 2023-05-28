@@ -153,11 +153,13 @@
 
 .enviadoFeed {
     position: fixed;
-    background-color: #27e04f;
+    background-color: #1fc042;
     height: 50px;
     width: 250px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     color: white;
     right: 0;
     top: 100px;
@@ -182,7 +184,11 @@
     }
 }
 
-
+.enviadoIcon {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 5px;
+}
 
 
 [data-tooltip-star1]::before {
