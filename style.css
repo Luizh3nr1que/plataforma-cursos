@@ -63,6 +63,7 @@ h1 {
     gap: 50px;
     justify-content: space-around;
     display: flex;
+
 }
 
 .perfils p {
@@ -87,13 +88,15 @@ img {
     border-radius: 8px;
     cursor: pointer;
     width: 230px;
+    box-shadow: 5px 5px 30px rgba(4, 4, 4, 0.541),
+        -5px -5px 30px rgba(57, 57, 57, 0.349);
     transition: all .3s ease-in-out;
 }
 
 img:hover {
     transition: all .3s ease-in-out;
-    border-top: 2px solid rgb(226, 43, 43);
-    border-left: 2px solid rgb(226, 64, 43);
+    border-top: 2px solid rgb(173, 33, 33);
+    border-left: 2px solid rgb(194, 56, 37);
     border-bottom: 2px solid rgb(238, 103, 103);
     border-right: 2px solid rgb(238, 103, 103);
     box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
