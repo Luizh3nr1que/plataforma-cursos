@@ -54,7 +54,7 @@ section {
 
 
 h1 {
-    color: rgb(223, 223, 223);
+    color: rgb(168, 168, 168);
     font-size: 45px;
 }
 
@@ -66,28 +66,37 @@ h1 {
 }
 
 .perfils p {
-    color: rgb(223, 223, 223);
+    color: rgb(168, 168, 168);
+    background-color: rgb(20, 20, 20);
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 20px;
     font-size: 20px;
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
 
 }
 
 .perfils-container {
     margin-top: 10px;
     padding: 30px;
+
 }
 
 img {
     border-radius: 8px;
     cursor: pointer;
     width: 230px;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 img:hover {
-    transition: all .2s ease-in-out;
-    width: 240px;
-    border: 2px solid rgb(255, 25, 25);
+    transition: all .3s ease-in-out;
+    border-top: 2px solid rgb(226, 43, 43);
+    border-left: 2px solid rgb(226, 64, 43);
+    border-bottom: 2px solid rgb(238, 103, 103);
+    border-right: 2px solid rgb(238, 103, 103);
+    box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
 }
 
 .front:hover p,

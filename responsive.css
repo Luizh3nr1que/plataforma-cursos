@@ -20,7 +20,7 @@
     }
 
     img {
-        width: 150px;
+        width: 180px;
     }
 
     h1 {
@@ -31,36 +31,22 @@
 @media screen and (max-width:403px) {
 
     section {
-        margin-top: 50%;
+        margin: 70px auto;
     }
 
     img {
-        width: 100px;
+        width: 200px;
     }
 
     h1 {
         font-size: 25px;
     }
-}
 
-@media screen and (max-width:397px) {
-
-    section {
-        margin-top: 70%;
-    }
-
-    img {
-        width: 100px;
-    }
-
-    h1 {
-        font-size: 20px;
+    .perfils {
+        display: flex;
+        flex-direction: column;
     }
 }
 
-@media screen and (max-width:303px) {
 
-    section {
-        margin-top: 90%;
-    }
-}
+@media screen and (max-width:303px) {}
