@@ -14,6 +14,6 @@ O design responsivo garante que a plataforma seja acessível em dispositivos mó
  
 <br>
 
-<h1>Este projeto pode ser visto  <a target='_blank' href='https://luizh3nr1que.github.io/plataforma-cursos/'>aqui</a></h1>
+<h1>Este projeto pode ser visto  <a href='https://luizh3nr1que.github.io/plataforma-cursos/'>aqui</a></h1>
 
 
