@@ -140,6 +140,9 @@ submitButton.addEventListener('click', () => {
 })
 
 
-
+window.addEventListener("load", function () {
+    const loader = document.querySelector('.fundoLoad')
+    loader.style.display = "none";
+});
 
 
